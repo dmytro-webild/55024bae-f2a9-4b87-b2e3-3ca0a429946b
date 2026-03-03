@@ -47,7 +47,7 @@ export default function PetsHavenPage() {
           description="Meet our loving animals waiting for families who will cherish them. Every pet deserves a second chance at happiness."
           tag="Find Your Match"
           tagAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/woman-playing-with-rescue-dogs-shelter_23-2148682984.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_39wUQvOmvybi7OsenpqBLyZR6m5/tmp/realistic-pet-shelter-1772530037721-f5bc57bc.png"
           imageAlt="Shelter animals waiting for adoption"
           mediaAnimation="slide-up"
           background={{ variant: "plain" }}
