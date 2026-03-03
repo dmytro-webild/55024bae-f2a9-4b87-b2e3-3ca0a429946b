@@ -20,7 +20,7 @@ export default function PetsHavenPage() {
       borderRadius="soft"
       contentWidth="small"
       sizing="mediumSizeLargeTitles"
-      background="fluid"
+      background="circleGradient"
       cardStyle="soft-shadow"
       primaryButtonStyle="shadow"
       secondaryButtonStyle="glass"
@@ -54,13 +54,13 @@ export default function PetsHavenPage() {
           testimonials={[
             {
               name: "Sarah Johnson",              handle: "New Pet Parent",              testimonial: "Finding our perfect family member here changed our lives forever!",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/young-stylish-couple-walking-with-dog-street-man-woman-happy-together-with-husky-breed_285396-1635.jpg?_wi=1"},
+              imageSrc: "http://img.b2bpic.net/free-photo/young-stylish-couple-walking-with-dog-street-man-woman-happy-together-with-husky-breed_285396-1635.jpg"},
             {
               name: "Michael Chen",              handle: "Dog Lover",              testimonial: "The team was so helpful through the entire adoption process. Highly recommend!",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/affectionate-little-girl-embracing-dog-while-relaxing-by-window-with-her-father_637285-3270.jpg?_wi=1"},
+              imageSrc: "http://img.b2bpic.net/free-photo/affectionate-little-girl-embracing-dog-while-relaxing-by-window-with-her-father_637285-3270.jpg"},
             {
               name: "Emily Rodriguez",              handle: "Cat Enthusiast",              testimonial: "Best decision we've made. Our cat is the sweetest addition to our family.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/happy-woman-holding-her-labrador_23-2148345932.jpg?_wi=1"},
+              imageSrc: "http://img.b2bpic.net/free-photo/happy-woman-holding-her-labrador_23-2148345932.jpg"},
           ]}
           buttons={[
             { text: "Browse Available Pets", href: "#animals" },
@@ -148,13 +148,13 @@ export default function PetsHavenPage() {
           testimonials={[
             {
               id: "1",              name: "Sarah & Tom Johnson",              role: "Dog Parents",              company: "Chicago, IL",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/young-stylish-couple-walking-with-dog-street-man-woman-happy-together-with-husky-breed_285396-1635.jpg?_wi=2"},
+              imageSrc: "http://img.b2bpic.net/free-photo/young-stylish-couple-walking-with-dog-street-man-woman-happy-together-with-husky-breed_285396-1635.jpg"},
             {
               id: "2",              name: "Jessica Martinez",              role: "Cat Lover",              company: "Austin, TX",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/affectionate-little-girl-embracing-dog-while-relaxing-by-window-with-her-father_637285-3270.jpg?_wi=2"},
+              imageSrc: "http://img.b2bpic.net/free-photo/affectionate-little-girl-embracing-dog-while-relaxing-by-window-with-her-father_637285-3270.jpg"},
             {
               id: "3",              name: "David & Lisa Park",              role: "Pet Family",              company: "Seattle, WA",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/happy-woman-holding-her-labrador_23-2148345932.jpg?_wi=2"},
+              imageSrc: "http://img.b2bpic.net/free-photo/happy-woman-holding-her-labrador_23-2148345932.jpg"},
             {
               id: "4",              name: "Michael Thompson",              role: "Dog Enthusiast",              company: "Denver, CO",              rating: 5,
               imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-home-near-christmas-tree-with-her-beloved-pet-cat_132075-14792.jpg"},
@@ -175,7 +175,7 @@ export default function PetsHavenPage() {
             { text: "Apply to Volunteer", href: "#" },
             { text: "Donate Supplies", href: "#" },
           ]}
-          background={{ variant: "fluid" }}
+          background={{ variant: "plain" }}
           useInvertedBackground={true}
         />
       </div>
